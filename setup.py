@@ -13,17 +13,17 @@ from setuptools import find_packages, setup, Command
 # Package meta-data.
 NAME = 'fast_gpu_voronoi'
 DESCRIPTION = 'GPU-Accelerated Jump Flooding Algorithm for Voronoi Diagram in log*(n)'
-URL = 'https://github.com/maciejczyzewski/fast_gpu_voronoi'
-EMAIL = 'maciejanthonyczyzewski@gmail.com'
+URL = 'https://github.com/TimoBaroth/fast_gpu_voronoi.git'
+EMAIL = '-'
 AUTHOR = 'Maciej A. Czyzewski'
 REQUIRES_PYTHON = '>=3.1.0'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
-    'imageio==2.4.1',
-    'matplotlib==3.0.3',
-    'pyopencl==2018.2.5',
-    'numpy==1.16.2',
+    'imageio>=2.4.1',
+    'matplotlib>=3.0.3',
+    'pyopencl>=2018.2.5',
+    'numpy>=1.16.2',
     'tqdm==4.28.1',
 ]
 
