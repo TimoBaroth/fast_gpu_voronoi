@@ -8,4 +8,4 @@ I = Instance(alg=JFA_star, x=50, y=50, \
 I.run()
 
 print(I.M.shape)                 # (50, 50, 1)
-save(I.M, I.x, I.y, force=True)  # __1_debug.png
+save(I.M, I.x, I.y, force=True)  # __1_debug.png0
