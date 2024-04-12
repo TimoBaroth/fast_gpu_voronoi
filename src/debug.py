@@ -38,7 +38,7 @@ def save_to_file(M, prefix=""):
     """Zapisuje macierz M do pliku."""
     global debug_name, debug_iterator
     print("======== \033[92mSAVE {}\033[m ========".format(debug_iterator))
-    M_color = matrix_rgb(M)
+    M_color = matrix_rgb(M).astype(np.uint8)
     debug_iterator += 1
     if prefix != "":
         name = '__{}_{}_{}.png'.format(debug_iterator, prefix, debug_name)

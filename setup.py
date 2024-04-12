@@ -20,11 +20,19 @@ REQUIRES_PYTHON = '>=3.1.0'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
-    'imageio>=2.4.1',
-    'matplotlib>=3.0.3',
-    'pyopencl>=2022.2.4',
-    'numpy>=1.23.4',
-    'tqdm==4.28.1',
+    'numpy==1.26.4',
+    'matplotlib==3.8.3',
+    'scipy==1.12.0',
+    'setuptools==65.5.0',
+    'imageio==2.34.0',
+    'pyopencl==2024.1',
+    'docopt==0.6.2',
+    'tqdm==4.66.2'
+    # 'imageio>=2.4.1',
+    # 'matplotlib>=3.0.3',
+    # 'pyopencl>=2022.2.4',
+    # 'numpy>=1.23.4',
+    # 'tqdm==4.28.1',
 ]
 
 # What packages are optional?
